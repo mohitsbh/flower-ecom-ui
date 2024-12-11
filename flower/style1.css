@@ -1,0 +1,55 @@
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    min-width: 100vh;
+    background: url('IMG20200409173620.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.home span{
+    color: rgb(204, 37, 37);
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.home p{
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    line-height: 1.5;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: .7rem .9rem;
+    background: #333;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+
+}
+
+.btn:hover{
+    background-color: rgb(204, 37, 37); ;
+}
